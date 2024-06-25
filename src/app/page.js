@@ -58,7 +58,7 @@ export default function Home() {
                   value={editText}
                   onChange={(e) => setEditText(e.target.value)}
                 />
-                <button onClick={() => saveEdit(item.id)}>Save todo
+                <button onClick={() => saveEdit(item.id)}>Save
                 </button>
               </>
             ) : (
